@@ -79,16 +79,33 @@ p {
 }
 
 .three-col h2 {
-  position: absolute;
   font-size: 16px;
   font-weight: bold;
-  padding-top: 30px;
+  padding-top: 25px;
 }
 
-.three-col img {
-  height: 50px;
-  width: 20px;
-  margin: 25px 0;
+.larimer-image {
+  background-image: url("../images/2.jpg");
+  background-size: cover;
+  height: 100px;
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+.millenium-bridge-image {
+  background-image: url("../images/5.jpg");
+  background-size: cover;
+  height: 100px;
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+.molly-brown-image {
+  background-image: url("../images/6.jpg");
+  background-size: contain;
+  height: 100px;
+  width: 300px;
+  margin-bottom: 10px;
 }
 
 footer {
